@@ -1,0 +1,19 @@
+---
+name: "stat462"
+output_dir: "docs"
+output:
+  html_document:
+navbar:
+  title: "Introduction to Mathematical Statistics II"
+  left:
+    - text: "About"
+      href: index.html
+    - text: "Midtem"
+      href: midterm.html
+    - text: "Final"
+      href: final.html
+    - text: "Book"
+      href: book.html
+    - text: "Contact"
+      href: contact.html
+---

@@ -1,0 +1,22 @@
+---
+title: "Midterm"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'midterm.html'))})
+output:
+  html_document:
+    toc: true
+    toc_float: TRUE
+    theme: cosmo
+---
+
+```{r,echo=F, message=F}
+library(dplyr)
+library(kableExtra)
+```
+
+# W1: Jan. 4th, 2022 
+
+# W1: Jan. 6th, 2022

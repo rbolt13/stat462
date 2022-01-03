@@ -1,0 +1,22 @@
+---
+title: "Book"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'book.html'))})
+output:
+  html_document:
+    toc: true
+    toc_float: TRUE
+    theme: cosmo
+---
+
+```{r,echo=F, message=F}
+library(dplyr)
+library(kableExtra)
+```
+
+# Chapter 5 
+
+# Chapter 6

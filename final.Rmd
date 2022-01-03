@@ -1,0 +1,22 @@
+---
+title: "Final"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'final.html'))})
+output:
+  html_document:
+    toc: true
+    toc_float: TRUE
+    theme: cosmo
+---
+
+```{r,echo=F, message=F}
+library(dplyr)
+library(kableExtra)
+```
+
+# W6: Feb. 8th, 2022 
+
+# W6: Feb. 10th, 2022
