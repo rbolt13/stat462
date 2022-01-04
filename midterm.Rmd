@@ -15,6 +15,8 @@ output:
 ```{r,echo=F, message=F}
 library(dplyr)
 library(kableExtra)
+library(emojifont)
+library(ggplot2)
 ```
 
 # W1: Jan. 4th, 2022 
@@ -53,6 +55,11 @@ For PMF (discre rv) to be independent then, $p_{Y_1,Y_2}=p_1(y_1)\times p_2(y_2)
 
 - If $p_{Y_1,Y_2}\ne p_1(y_1)\times p_2(y_2)$ then NOT independent (meaning they are related to each other). 
 
-**Complete first question of homework before next class.**
+**Complete first question of homework before next class.** 
+
+```{r,echo=F, message=F, out.height = '30%', out.width = '40%', fig.align = "center" }
+ggplot() + geom_emoji("smile", color='steelblue') + theme_void()
+```
+
 
 # W1: Jan. 6th, 2022
