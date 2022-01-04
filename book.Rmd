@@ -12,14 +12,16 @@ output:
     theme: cosmo
 ---
 
+These notes are from [Mathematical Statistics with Applications 7th Edition](file:///Users/randi/Downloads/MathematicalStatisticsPDFDrive.com.pdf). 
+
 ```{r,echo=F, message=F}
 library(dplyr)
 library(kableExtra)
 ```
 
-# Ch. 5 : Multivariate Probability Distributions 
+# **Ch. 5 : Multivariate Probability Distributions** 
 
-## 5.2 : Bivariate and Multivariate Probability Distributions 
+## **5.2 : Bivariate and Multivariate Probability Distributions** 
 
 Bivariate : involving or depending on two variables 
 
@@ -93,16 +95,16 @@ $F(5,7)=P(Y_1\leq 5, Y_2\leq7)=1$
 
 > **Theorem 5.2** : If $Y_1$ and $Y_2$ are random variables within joint distribution function $F(y_1,y_2)$, then 
 >
-> 1. $F(-\infty,-\infty)=F(-\infty,y_2)=F(y_1,-\infty)=0$
+> 1. $F(-\infty,-\infty)=F(-\infty,y_2)=F(y_1,-\infty)=0$ (smallest possible value is 0)
 >
-> 2. $F(\infty,\infty)=1$
+> 2. $F(\infty,\infty)=1$ (largest possible value is 1)
 >
-> 3. If $y_1^*\geq y_1$ and $y_2^* \geq y_2$, then 
+> 3. If $y_1^*\geq y_1$ and $y_2^* \geq y_2$ (non-decreasing), then 
 > $$F(y_1^*,y_2^*)-F(y_1^*,y_2)-F(y_1,y_2^*)+F(y_1,y_2)\geq 0$$
 
 > **Theorem 5.2** : If $Y_1$ and $Y_2$ are jointly continuous random variable with a joint density function given by $f(y_1,y_2)$, then 
 >
-> 1. $f(y_1,y_2)\geq 0\forall y_1,y_2$
+> 1. $f(y_1,y_2)\geq 0\forall y_1,y_2$ 
 >
 > 2. $\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}f(y_1,y_2)dy_1dy_2=1$.
 
@@ -173,7 +175,7 @@ P(0\leq Y_1\leq .5, .25\leq Y_2) & = \int_{1/4}^{1/2}\int_{1/4}^{y_1}3y_1dy_1dy_
 \end{split}
 \end{equation}
 
-## 5.3 : Marginal and Conditional Probability Distributions
+## **5.3 : Marginal and Conditional Probability Distributions**
 
 > **Definition 5.4** : 
 >
@@ -185,9 +187,132 @@ P(0\leq Y_1\leq .5, .25\leq Y_2) & = \int_{1/4}^{1/2}\int_{1/4}^{y_1}3y_1dy_1dy_
 >
 > $p_1(y_1)\int\limits_{-\infty}^{\infty}f(y_1,y_2)dy_2$ and $p_2(y_2)\int\limits_{-\infty}^{\infty}f(y_1,y_2)dy_1$
 
+- Marginal probability is the probability of an event not taking into account the outcome of another variable
 
+**Example 5.5** : From a group of three Republicans, two Democrats, and one independent, a committee of two people is to be randomly selected. Let $Y_1$ denote the number of Republicans and $Y_2$ denote the number of Democrats on the committee. Find the joint probability function of $Y_1$ and $Y_2$ and then find the marginal probability function of $Y_1$. 
 
-## 5.5 : The Expected Value of a Function of Random Variables
+Note the probabilities sought here are similar to the hypergeometric probabilities of Chapter 3. 
+
+$$P(Y_1=1, Y_2=1)=p(1,1)=\frac{{3\choose1}{2\choose 1}{1\choose 0}}{{6\choose2}}=\frac{3(2)}{15}=\frac{6}{15}$$
+
+There are 15 sample points, 1 Rep. of 3, 1 Dem. of 2, and 0 independents. 
+
+![](img/img6.png)
+
+To find $p(y_1)$ we must sum over the values of $Y_2$ as Definition 5.4 indicates. 
+
+$p_1(0)=p(0,0)+p(0,1)+p(0,2)=0+\frac{2}{15}+\frac{1}{15}=\frac{3}{15}$
+
+$p_1(1)=\frac{9}{15}$
+
+$p_1(2)=\frac{3}{15}$
+
+**Example 5.6** : Let 
+
+\[
+f(y_1,y_2)=\begin{cases}
+2y_1, & 0\leq y_1\leq 1, 0\leq y_2\leq 1,\\
+0, & \text{elsewhere}
+\end{cases}
+\]
+
+Sketch $f(y_1,y_2)$ and find the marginal density funcitons for $Y_1$ and $Y_2$. 
+
+![](img/img7.png)
+
+- marginal results for $y_1$ would be triangular density
+
+- marginal results for $y_2$ would be uniform density 
+
+For $0\leq y_1\leq1$ :
+
+$f_1(y_1)=\int_{-\infty}^{\infty}f(y_1,y_2)dy_2=\int_0^12y_1dy_2=2y_1(y_2]_0^1)=2y_1$
+
+For $y_1<0$ or $y_1>1$ :
+
+$f_1(y_1)=\int_{-\infty}^{\infty}f(y_1,y_2)dy_2=\int_0^10dy_2=0$
+
+Thus, 
+
+\[
+f_1(y_1)=\begin{cases}
+2y_1, & 0\leq y_1\leq 1\\
+0, & \text{elsewhere}
+\end{cases}
+\]
+
+For $0\leq y_2\leq1$ :
+
+$f_2(y_2)=\int_{-\infty}^{\infty}f(y_1,y_2)dy_1=\int_0^12y_1dy_1=y_1^2]_0^1=1$
+
+For $y_2<0$ or $y_2>1$ :
+
+$f_2(y_2)=\int_{-\infty}^{\infty}f(y_1,y_2)dy_1=\int_0^10dy_1=0$
+
+Thus, 
+
+\[
+f_2(y_2)=\begin{cases}
+1, & 0\leq y_1\leq 1\\
+0, & \text{elsewhere}
+\end{cases}
+\]
+
+Note that graphs of $f_1(y_1)$ and $f_2(y_2)$ trace triangular and uniform probability densities respectively, as expected. 
+
+> **Definition 5.5** : If $Y_1$ and $Y_2$ are jointly discrete random variables with joint probability function $p(y_1,y_2)$ and marginal probability functions $p_1(y_1)$ and $p_2(y_2)$, respectively, then the _conditional discrete probability function_ of $Y_1$ given $Y_2$ is 
+> $$p(y_1|y_2)=P(Y_1=y_1|Y_2=y_2)=\frac{P(Y_1=y_1,Y_2=y_2)}{P(Y_2=y_2)}=\frac{p(y_1,y_2)}{p_2(y_2)}$$
+> provided that $p_2(y_2)>0$
+
+Note : $p(y_1|y_2)$ is _undefined_ if $p_2(y_2)=0$
+
+**Example 5.7 ** : Refer to Example 5.5 and find the conditional distribution of $Y_1$ given that $Y_2 = 1$. That is, given that one of the two people on the committee is a Democrat, find the conditional distribution for the number of Republicans selected for the committee.
+
+In table 5.2 we concentrate on the row corresponding to $Y_1=1$
+
+$P(Y_1=0|Y_2=1)=\frac{p(0,1)}{p_2(1)}=\frac{2/15}{8/15}=\frac{1}{4}$
+
+$P(Y_1=1|Y_2=1)=\frac{p(1,1)}{p_2(1)}=\frac{6/15}{8/15}=\frac{3}{4}$
+
+$P(Y_1\geq2|Y_2=1)=\frac{p(2,1)}{p_2(1)}=\frac{0/15}{8/15}=0$
+
+In the randomly selected comittee, if one person is a Democrat ($Y_2=1$), there is a high probability that the other will be a Republican ($Y_1=1$). 
+
+> **Definition 5.6** : If $Y_1$ and $Y_2$ are jointly continuous random variables with joint density function $f(y_1, y_2)$, then the _conditional distribution function_ of $Y_1$ given $Y_2 = y_2$ is
+> $$F(y_1|y_2)=P(Y_1\leq y_1|Y_2=y_2)$$.
+
+Note that $F(y_1|y_2)$ is a function of $y_1$ for a fixed value of $y_2$. 
+
+> **Definition 5.7** : Let $Y_1$ and $Y_2$ be jointly continuous random variables with joint density $f(y_1,y_2)$ and marginal densitites $f_1(y_1)$ and $f_2(y_2)$, respectively. $\forall y_2|f_2(y_2)>0$, the conditional desnity of $Y_1$ given $Y_2=y_2$ is given by 
+> $$f(y_1|y_2)=\frac{f(y_1,y_2)}{f_2(y_2)}$$
+>
+> and, $\forall y_1|f_1(y_1)>0$, the conditional density of $Y_2$ given $Y_1=y_1$ is given by
+> $$f(y_2|y_1)=\frac{f(y_1,y_2)}{f_1(y_1)}$$
+
+Note that $f(y_1|y_2)$ is undefined $\forall y_2 |f_2(y_2)=0$ and $f(y_2|y_1)$ is undefined $\forall y_1 |f_1(y_1)=0$
+
+**Example 5.8** : A soft-drink machine has a random amount $Y_2$ in supply at the beginning of a given day and dispenses a random amount $Y_1$ during the day (with measurements in gallons). It is not resupplied during the day, and hence $Y_1 ≤ Y_2$. It has been observed that $Y_1$ and $Y_2$ have a joint density given by
+
+\[
+f(y_1,y_2)=\begin{cases}
+1/2, & 0\leq y_1\leq 1, 0\leq y_2\leq 1,\\
+0, & \text{elsewhere}
+\end{cases}
+\]
+
+That is, the points $(y_1, y_2)$ are uniformly distributed over the triangle with the given boundaries. Find the conditional density of $Y_1$ given $Y_2 = y_2$. Evaluate the probability that less than 1/2 gallon will be sold, given that the machine contains 1.5 gallons at
+the start of the day.
+
+The marginal density of $Y_2$ is : 
+
+\[
+f_2(y_2)=\begin{cases}
+\int_0^{y_2}(1/2)dy_1, & 0\leq y_1\leq 1, 0\leq y_2\leq 1,\\
+\int_{-\infty}^{\infty}0dy_1=0, & \text{elsewhere}
+\end{cases}
+\]
+
+## **5.5 : The Expected Value of a Function of Random Variables**
 
 > **Definition 5.9** : Let $g(Y_1,Y_2,...,Y_k)$ be a function of the discrete random variables, $Y_1$, $Y_2,...,Y_k$ which have probability function $p(y_1,y_2,...,y_k)$. Then the _expected value_ of $g(Y_1,Y_2,...,Y_k)$ is
 > $$E[g(Y_1,Y_2,...,Y_k)]=\sum_{\text{all }y_k}\ldots\sum_{\text{all }y_2}\sum_{\text{all }y_1}g(y_1,y_2,...,y_k)p(y_1,y_2,...,y_k)$$.
@@ -315,8 +440,8 @@ E(Y_1Y_2) & = \int_{0}^{1}\int_{0}^{1}2y_1y_2(1-y_1)dy_1dy_2\\
 
 Therefore, we would expect 1/6 of the sample to be made up of type I impurities. 
 
-# Ch. 6 : Functions of Random Variables 
+# **Ch. 6 : Functions of Random Variables** 
 
-# Ch. 7 : Sampling Distributions and the Central Limit theorem 
+# **Ch. 7 : Sampling Distributions and the Central Limit theorem** 
 
-# Ch. 8 : Estimation
+# **Ch. 8 : Estimation**

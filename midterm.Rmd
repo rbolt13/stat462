@@ -19,4 +19,40 @@ library(kableExtra)
 
 # W1: Jan. 4th, 2022 
 
+- PHd in Statistics from Idaho
+
+- Homework Due on Friday, and will be graded over the weekend. 
+
+- Starting with Chapter 5.
+
+- Class notes are in Canvas
+
+CDF for two random variables have 3 properties
+
+- smallest value is 0
+
+- largest value is 1
+
+- always non-decreasing 
+
+Joint PMF for discrete variables uses summation and has two properties
+
+- all probability are between 0 and 1
+
+- total probability must be 1
+
+Two way tables, because there are two ways to read it 
+
+- also known as pivot table and contingency table
+
+- make sure you can write and understand in different ways
+
+O otherwise must be included for a complete distribution function. 
+
+For PMF (discre rv) to be independent then, $p_{Y_1,Y_2}=p_1(y_1)\times p_2(y_2)$ for all $(y_1,y_2)$
+
+- If $p_{Y_1,Y_2}\ne p_1(y_1)\times p_2(y_2)$ then NOT independent (meaning they are related to each other). 
+
+**Complete first question of homework before next class.**
+
 # W1: Jan. 6th, 2022
