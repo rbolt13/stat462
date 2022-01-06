@@ -101,21 +101,6 @@ CDF : $F(y_1,y_2)=P(Y_1\leq y_1, Y_2\leq y_2)=\int_{-\infty}^{y_2}\int_{-\infty}
   
 - when you find the cdf you must use $dt_1$ and $dt_2$, but don't need it to use or solve for probabilities 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# W2D3 :
+# W2D3:
 
 # W2D4: 
