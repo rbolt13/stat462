@@ -19,7 +19,7 @@ library(emojifont)
 library(ggplot2)
 ```
 
-# W1: Jan. 4th, 2022 
+# W1D1: Jan. 4th, 2022 
 
 - PHd in Statistics from Idaho
 
@@ -58,8 +58,64 @@ For PMF (discre rv) to be independent then, $p_{Y_1,Y_2}=p_1(y_1)\times p_2(y_2)
 **Complete first question of homework before next class.** 
 
 ```{r,echo=F, message=F, out.height = '30%', out.width = '40%', fig.align = "center" }
-ggplot() + geom_emoji("smile", color='steelblue') + theme_void()
+# smiley face emoji
+# ggplot() + geom_emoji("smile", color='steelblue') + theme_void()
 ```
 
 
-# W1: Jan. 6th, 2022
+# W1D2: Jan. 6th, 2022
+
+Review Homework will be Homework 1 and due Friday 14th 
+
+## Joint PDF 
+
+Properties :
+
+1. smallest value is 0 
+
+2. total volume under the joint pdf is 1
+
+Notes : 
+
+If the limits are given without equal sign then you can apply integral in the same way. 
+
+The support is the area on the graph. 
+
+Upper limit is only important for PMF of discrete random variables 
+
+pdf : $f_{Y_1,Y_2}\geq0$
+
+PMF : $0\leq p(y_1,y_2)\leq 1$
+
+CDF : $F(y_1,y_2)=P(Y_1\leq y_1, Y_2\leq y_2)=\int_{-\infty}^{y_2}\int_{-\infty}^{y_1}f(y_1,y_2)dt_1dt_2$
+
+- when we do problems we do not need to write every step of the integral 
+
+- pay attention to the limits on the double integral ($y_1$ is on the inner intgegral, meaning it is integrated first ($dt_1$ inside $dt_2$))
+
+- final answer will be a function, not a limit  
+
+- lowest value must be 0, and highest value must be 1 
+
+  - 0 otherwise is wrong without values for 1 included in CDF
+  
+- when you find the cdf you must use $dt_1$ and $dt_2$, but don't need it to use or solve for probabilities 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# W2D3 :
+
+# W2D4: 
