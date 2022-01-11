@@ -101,6 +101,44 @@ CDF : $F(y_1,y_2)=P(Y_1\leq y_1, Y_2\leq y_2)=\int_{-\infty}^{y_2}\int_{-\infty}
   
 - when you find the cdf you must use $dt_1$ and $dt_2$, but don't need it to use or solve for probabilities 
 
-# W2D3:
+# W2D3: Jan. 11th, 2022
+
+### CDF, PDF, Marginal PDF 
+
+CDF : $F(y_1,y_2)=P(Y_1\leq y_1,Y_2\leq y_2)=\int_{-\infty}^{y_2}\int_{-\infty}^{y_1}f(t_1,t_2)dt_1dt_2$
+
+PDF : $\frac{\partial^2}{\partial y_1 \partial y_2}F_{Y_1,Y_2}(y_1,y_2)$
+
+Marginal : $f_1(y_1)=\int_{-\infty}^{\infty}f_{Y_1,Y_2}{(y_1,y_2)}$
+
+### Independence of Random Variables
+
+CDF : $F_{Y_1,Y_2}(y_1,y_2)=F_1(y_1)\times F_2(y_2)$
+
+PDF : $f_{Y_1,Y_2}(y_1,y_2)=f_1(y_1)\times f_2(y_2)$
+
+## Example 1
+
+$f(y_1,y_2)=\begin{cases}\frac{6}{5}(y_1+y_2^2); & 0\leq y_1\leq 1, 0\leq y_2\leq 1\\0;&\text{otherwise}\end{cases}$
+
+### Compute and report the marginal pdf of $Y_1$
+
+### Are the random variables $Y_1$ and $Y_2$ independent according to probability? Explain. 
+
+## Example 2
+
+Consider the following function. 
+
+$f_{Y_1,Y_2}(y_1,y_2)=\begin{cases}0.3(1-y_1^2+y_2);&0\leq y_1\leq y_2\leq 2\\0;&\text{otherwise}\end{cases}$
+
+you don't have to go along with it same
+
+### (a) Draw and shade the support of this function on Cartesian plane. 
+
+### (b) Find and report the marginal pdf of $Y_1$. 
+
+### (c) Find the probability that $Y_2$ is higher than 1.5. That is, find $P(Y_2>1.5)$.
+
+### (d) Are the random variables $Y_1$ and $Y_2$ independent according to probability? Explain. 
 
 # W2D4: 
