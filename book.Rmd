@@ -12,8 +12,6 @@ output:
     theme: cosmo
 ---
 
-These notes are from [Mathematical Statistics with Applications 7th Edition](file:///Users/randi/Downloads/MathematicalStatisticsPDFDrive.com.pdf). 
-
 ```{r,echo=F, message=F}
 library(dplyr)
 library(kableExtra)
@@ -455,8 +453,3 @@ E(Y_1Y_2) & = \int_{0}^{1}\int_{0}^{1}2y_1y_2(1-y_1)dy_1dy_2\\
 Therefore, we would expect 1/6 of the sample to be made up of type I impurities. 
 
 
-# **Ch. 6 : Functions of Random Variables** 
-
-# **Ch. 7 : Sampling Distributions and the Central Limit theorem** 
-
-# **Ch. 8 : Estimation**
