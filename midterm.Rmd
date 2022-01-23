@@ -141,4 +141,13 @@ you don't have to go along with it same
 
 ### (d) Are the random variables $Y_1$ and $Y_2$ independent according to probability? Explain. 
 
-# W2D4: 
+
+# W3D4: Jan. , 2022
+
+# W3D5: Jan. , 2022
+
+joint pmf (p) : between 0 and 1
+
+joint pdf (f) : nonnegative 
+
+Discrete uses summation 
