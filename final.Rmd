@@ -17,6 +17,8 @@ library(dplyr)
 library(kableExtra)
 ```
 
-# W6: Feb. 8th, 2022 
+# W5D10: Feb 3rd, 2022
 
-# W6: Feb. 10th, 2022
+# W6D11: Feb. 8th, 2022 
+
+# W6D12: Feb. 10th, 2022
