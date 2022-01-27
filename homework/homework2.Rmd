@@ -1,0 +1,16 @@
+---
+title: "homework"
+author: "Randi Bolt"
+date: "1/24/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## 5.72
+
+a. $E(Y_1)=0(\frac{4}{9})+1(\frac{4}{9})+2(\frac{1}{9})=\frac{6}{9}$
+
+b. 
+
+c. 

@@ -21,6 +21,8 @@ library(ggplot2)
 
 # W1D1: Jan. 4th, 2022 
 
+## About Class
+
 - PHd in Statistics from Idaho
 
 - Homework Due on Friday, and will be graded over the weekend. 
@@ -28,6 +30,10 @@ library(ggplot2)
 - Starting with Chapter 5.
 
 - Class notes are in Canvas
+
+### 461 Last Lecture Notes
+
+#### Joint CDF and PDF
 
 CDF for two random variables have 3 properties
 
@@ -43,31 +49,43 @@ Joint PMF for discrete variables uses summation and has two properties
 
 - total probability must be 1
 
+## Example: Two-way Table 
+
 Two way tables, because there are two ways to read it 
 
 - also known as pivot table and contingency table
 
 - make sure you can write and understand in different ways
 
-O otherwise must be included for a complete distribution function. 
+### a) P(Only 1 car will be sold)
 
-For PMF (discre rv) to be independent then, $p_{Y_1,Y_2}=p_1(y_1)\times p_2(y_2)$ for all $(y_1,y_2)$
+![](img/img9.png)
 
-- If $p_{Y_1,Y_2}\ne p_1(y_1)\times p_2(y_2)$ then NOT independent (meaning they are related to each other). 
+### b) P(1 warrenty will be sold given that 2 cars were sold on a given day)
 
-**Complete first question of homework before next class.** 
+![](img/img10.png)
 
-```{r,echo=F, message=F, out.height = '30%', out.width = '40%', fig.align = "center" }
-# smiley face emoji
-# ggplot() + geom_emoji("smile", color='steelblue') + theme_void()
-```
+### c) Find and report the marginal pmf of $Y_1$
 
+![](img/img11.png)
+
+"O otherwise" must be included for a complete distribution function. 
+
+### d) Are $Y_1$ and $Y_2$ independent? 
+
+![](img/img12.png)
+
+![](img/img13.png)
+
+![](img/img14.png)
 
 # W1D2: Jan. 6th, 2022
 
 Review Homework will be Homework 1 and due Friday 14th 
 
 ## Joint PDF 
+
+![](img/img15.png)
 
 Properties :
 
@@ -79,19 +97,36 @@ Notes :
 
 If the limits are given without equal sign then you can apply integral in the same way. 
 
+## Example : Joint pdf
+
+![](img/img16.png)
+
+### a) Draw and shade the support
+
+![](img/img17.png)
+
 The support is the area on the graph. 
 
 Upper limit is only important for PMF of discrete random variables 
 
-pdf : $f_{Y_1,Y_2}\geq0$
+- pdf : $f_{Y_1,Y_2}\geq0$
 
-PMF : $0\leq p(y_1,y_2)\leq 1$
+- PMF : $0\leq p(y_1,y_2)\leq 1$
+
+### b) Verify $f(y_1,y_2)$ is a valid joint pdf
+
+![](img/img18.png)
+
+### c) Find the joint CDF 
+
+![](img/img19.png)
+
 
 CDF : $F(y_1,y_2)=P(Y_1\leq y_1, Y_2\leq y_2)=\int_{-\infty}^{y_2}\int_{-\infty}^{y_1}f(y_1,y_2)dt_1dt_2$
 
 - when we do problems we do not need to write every step of the integral 
 
-- pay attention to the limits on the double integral ($y_1$ is on the inner intgegral, meaning it is integrated first ($dt_1$ inside $dt_2$))
+- pay attention to the limits on the double integral ($y_1$ is on the inner integral, meaning it is integrated first ($dt_1$ inside $dt_2$))
 
 - final answer will be a function, not a limit  
 
@@ -101,53 +136,100 @@ CDF : $F(y_1,y_2)=P(Y_1\leq y_1, Y_2\leq y_2)=\int_{-\infty}^{y_2}\int_{-\infty}
   
 - when you find the cdf you must use $dt_1$ and $dt_2$, but don't need it to use or solve for probabilities 
 
+### d) P(Both variables are less than 1/4)
+
+![](img/img20.png)
+
+### e) P($Y_1$ is more than 0.75)
+
+![](img/img21.png)
+
 # W2D3: Jan. 11th, 2022
 
-### CDF, PDF, Marginal PDF 
+![](img/img22.png)
 
-CDF : $F(y_1,y_2)=P(Y_1\leq y_1,Y_2\leq y_2)=\int_{-\infty}^{y_2}\int_{-\infty}^{y_1}f(t_1,t_2)dt_1dt_2$
+![](img/img23.png)
 
-PDF : $\frac{\partial^2}{\partial y_1 \partial y_2}F_{Y_1,Y_2}(y_1,y_2)$
+![](img/img24.png)
 
-Marginal : $f_1(y_1)=\int_{-\infty}^{\infty}f_{Y_1,Y_2}{(y_1,y_2)}$
+![](img/img25.png) 
 
-### Independence of Random Variables
+![](img/img26.png)
 
-CDF : $F_{Y_1,Y_2}(y_1,y_2)=F_1(y_1)\times F_2(y_2)$
+![](img/img27.png)
 
-PDF : $f_{Y_1,Y_2}(y_1,y_2)=f_1(y_1)\times f_2(y_2)$
+![](img/img28.png)
 
-## Example 1
+![](img/img29.png)
 
-$f(y_1,y_2)=\begin{cases}\frac{6}{5}(y_1+y_2^2); & 0\leq y_1\leq 1, 0\leq y_2\leq 1\\0;&\text{otherwise}\end{cases}$
+![](img/img30.png)
 
-### Compute and report the marginal pdf of $Y_1$
+![](img/img31.png)
 
-### Are the random variables $Y_1$ and $Y_2$ independent according to probability? Explain. 
+![](img/img32.png)
 
-## Example 2
+![](img/img33.png)
 
-Consider the following function. 
+![](img/img34.png)
 
-$f_{Y_1,Y_2}(y_1,y_2)=\begin{cases}0.3(1-y_1^2+y_2);&0\leq y_1\leq y_2\leq 2\\0;&\text{otherwise}\end{cases}$
+![](img/img35.png)
 
-you don't have to go along with it same
+![](img/img36.png)
 
-### (a) Draw and shade the support of this function on Cartesian plane. 
+# W2D4: Jan. 13th, 2022
 
-### (b) Find and report the marginal pdf of $Y_1$. 
+![](img/img37.png)
 
-### (c) Find the probability that $Y_2$ is higher than 1.5. That is, find $P(Y_2>1.5)$.
+![](img/img38.png)
 
-### (d) Are the random variables $Y_1$ and $Y_2$ independent according to probability? Explain. 
+![](img/img39.png)
 
+![](img/img40.png)
 
-# W3D4: Jan. , 2022
+![](img/img41.png)
 
-# W3D5: Jan. , 2022
+![](img/img42.png)
+
+![](img/img43.png)
+
+![](img/img44.png)
+
+![](img/img45.png)
+
+![](img/img46.png)
+
+![](img/img47.png)
+
+![](img/img48.png)
+
+![](img/img49.png)
+
+![](img/img50.png)
+
+![](img/img51.png)
+
+![](img/img52.png)
+
+![](img/img53.png)
+
+# W3D5: Jan. 18th, 2022
 
 joint pmf (p) : between 0 and 1
 
 joint pdf (f) : nonnegative 
 
 Discrete uses summation 
+
+![](img/img54.png)
+
+# W3D6: Jan. 20th, 2022
+
+# W4D7: Jan. 25th, 2022
+
+# W4D8: Jan. 27th, 2022
+
+# W5D9: Feb. 1st, 2022
+
+MIDTERM 
+
+
