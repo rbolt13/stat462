@@ -17,8 +17,123 @@ library(dplyr)
 library(kableExtra)
 ```
 
-# W5D10: Feb 3rd, 2022
-
 # W6D11: Feb. 8th, 2022 
 
+## Functions of Random Varibales and Their Distributions
+
+![](img/img100.png)
+
+### Ex. Uniform Distribution X, Let W = 2x+4
+
+![](img/img101.png)
+
+### CDF of W
+
+![](img/img102.png)
+
+### PDF of W
+
+![](img/img103.png)
+
+### $T=\frac{x^2}{4}+1$
+
+![](img/img104.png)
+
+### CDF and PDF of T
+
+![](img/img105.png)
+
 # W6D12: Feb. 10th, 2022
+
+### Ex. R=ln(X)
+
+![](img/img106.png)
+
+### CDF and PDF of R
+
+![](img/img107.png)
+
+### Univariate Transformations Using CDF's
+
+![](img/img108.png)
+
+### Uniform X and $T=\frac{x^2}{4}+1$
+
+![](img/img109.png)
+
+### Increasing vs. Decreasing functions
+
+![](img/img110.png)
+
+### Method of Transformations
+
+![](img/img111.png)
+
+### Ex. Find the pdf of $Y=e^{x}$ and $Z=\frac{1}{X}$
+
+![](img/img112.png)
+### Complete pdf of Z
+
+![](img/img113.png)
+
+# W7D13: Feb. 15th, 2022
+
+### Find the pdf of $Y=3X$
+
+![](img/img114.png)
+
+### Find the pdf of $Y=X^2$
+
+![](img/img115.png)
+
+### Bivariate Transformations using Jacobians
+
+![](img/img116.png)
+
+### Ex. Total Volume Shipped
+
+![](img/img117.png)
+
+### Ex. Revenue from sales
+
+![](img/img118.png)
+
+### Ex. Difference in efficiency between economy and name-brand gas
+
+![](img/img119.png)
+
+### Ex. Uniform Distribution 
+
+![](img/img120.png)
+
+### Bivariate Transfomations for Continuous rv using Jacobian
+
+![](img/img121.png)
+
+![](img/img122.png)
+
+### Find joint pdf of $U_1$ and $U_2
+
+![](img/img123.png)
+
+![](img/img124.png)
+
+# W7D14: Feb. 16th, 2022
+
+# W8D15: Feb. 22nd, 2022
+
+# W8D16: Feb. 24th, 2022
+
+# W9D17: Mar. 1st, 2022
+
+# W9D18: Mar. 3rd, 2022
+
+# W10D19: Mar. 8th, 2022
+
+# W10D20: Mar. 10th, 2022
+
+# W11D21: Mar. 15th, 2022
+
+FINAL!!!
+
+
