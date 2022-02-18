@@ -118,7 +118,25 @@ library(kableExtra)
 
 ![](img/img124.png)
 
-# W7D14: Feb. 16th, 2022
+# W7D14: Feb. 17th, 2022
+
+### Joint PDF of $U_1$ and $U_2$ and PDF of $U_1$
+
+![](img/img125.png)
+
+![](img/img126.png)
+
+### Exponential $Y_1$ and $Y_2$, Let $U_1=\frac{Y_1}{Y_2}$
+
+![](img/img127.png)
+
+### The joint pdf of $U_1$ and $U_2$
+
+![](img/img128.png)
+
+### Marginal PDF of $U_1$
+
+![](img/img129.png)
 
 # W8D15: Feb. 22nd, 2022
 
