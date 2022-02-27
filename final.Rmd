@@ -12,11 +12,6 @@ output:
     theme: cosmo
 ---
 
-```{r,echo=F, message=F}
-library(dplyr)
-library(kableExtra)
-```
-
 # W6D11: Feb. 8th, 2022 
 
 ## Functions of Random Varibales and Their Distributions
@@ -140,7 +135,67 @@ library(kableExtra)
 
 # W8D15: Feb. 22nd, 2022
 
+## 6.5 The Method of Moment-Generating Functions
+
+![](img/img130.png)
+
+### Distributions, mgf, pmf or pdf
+
+![](img/img131.png)
+
+### Theorem 1
+
+![](img/img132.png)
+
+### Example 3
+
+![](img/img133.png)
+
+![](img/img134.png)
+
+![](img/img135.png)
+
+### Example 4
+
+![](img/img136.png)
+
+![](img/img137.png)
+
+### Theorem 6.2: MGF of sum of independent rv
+
+![](img/img138.png)
+
+![](img/img139.png)
+
+### Example
+
+![](img/img140.png)
+
+![](img/img141.png)
+
 # W8D16: Feb. 24th, 2022
+
+### Theorem 6.3 
+
+![](img/img142.png)
+
+![](img/img143.png)
+
+### Example 6
+
+![](img/img144.png)
+
+![](img/img145.png)
+
+![](img/img146.png)
+
+## Sampling Distributions and the Central Limit Theorem 
+
+![](img/img147.png)
+
+### Random Sample
+
+![](img/img148.png)
 
 # W9D17: Mar. 1st, 2022
 
