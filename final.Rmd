@@ -199,7 +199,54 @@ output:
 
 # W9D17: Mar. 1st, 2022
 
+### Example 1
+
+![](img/img149.png)
+
+### Definition 7.1: Statistic 
+
+![](img/img150.png)
+
+### Definition: Sampling Distribution 
+
+![](img/img151.png)
+
+### Example 2
+
+![](img/img152.png)
+
+
+![](img/img153.png)
+
+![](img/img154.png)
+
+## 7.2 Sampling from the Normal Distribution 
+
+![](img/img155.png)
+
 # W9D18: Mar. 3rd, 2022
+
+### Example 3
+
+![](img/img156.png)
+
+![](img/img157.png)
+
+### Example 4
+
+![](img/img158.png)
+
+### Theorem 7.3
+
+![](img/img159.png)
+
+### Definition 4.10 and Theorem 7.2
+
+![](img/img160.png)
+
+### TI Caclulator instructions and Example 5
+
+![](img/img161.png)
 
 # W10D19: Mar. 8th, 2022
 

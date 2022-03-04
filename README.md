@@ -6,6 +6,7 @@ View [here](https://rbolt13.github.io/stat462/)
 # To Do 
 * Ace this class
 * Type up notes
+* Bold headers
 
 # Done 
 ☑️ Update README
