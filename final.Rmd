@@ -250,7 +250,105 @@ output:
 
 # W10D19: Mar. 8th, 2022
 
+### Inference 
+
+![](img/img162.png)
+
+### Derieved Distributions
+
+![](img/img163.png)
+
+### Student's T Distribution 
+
+![](img/img164.png)
+
+### Example 6
+
+![](img/img165.png)
+
+![](img/img167.png)
+
+### Central Limit Theorem 
+
+![](img/img168.png)
+
+![](img/img169.png)
+
+### Example 7
+
+![](img/img170.png)
+
+![](img/img171.png)
+
+![](img/img172.png)
+
 # W10D20: Mar. 10th, 2022
+
+## Final 
+
+- will cover chapter 6 and 7
+
+- one sheet of notes (front and back)
+
+- integration calculator 
+
+- mgf table 
+
+- read homework feedback 
+
+- practice mgf problems from the homework 
+
+- write reason on steps for full points (i.e. is independent)
+
+- Remote exam join 30 minutes early 
+
+(None of the following will be on the final)
+
+### Methods
+
+- CDF
+
+- Jacobian (univariate)
+
+- MGF
+
+- Bivariate Jacobian 
+
+(Nothing below this point will be on the final)
+
+## Ch. 8 Statistical Ingerence 
+
+### Introduction 
+
+![](img/img173.png)
+
+### Statistical Ingerence
+
+![](img/img174.png)
+
+### Point Estimation 
+
+![](img/img175.png)
+
+### Unbiased and Biased Estimators
+
+![](img/img176.png)
+
+### Definition Bias
+
+![](img/img178.png)
+
+### Sample Mean
+
+![](img/img179.png)
+
+### Mean Square Error (MSE)
+
+![](img/img180.png)
+
+### Common Unbiased Point Estimators
+
+![](img/img181.png)
 
 # W11D21: Mar. 15th, 2022
 
