@@ -4,9 +4,10 @@ These are class notes and R code for Nadee Jayasena's STAT-462 : Introduction to
 View [here](https://rbolt13.github.io/stat462/)
 
 # To Do 
-* Ace this class
 * Type up notes
 * Bold headers
+* Change header colors for every other week 
 
 # Done 
 ☑️ Update README
+☑️ Ace this class
