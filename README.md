@@ -6,6 +6,8 @@ View [here](https://rbolt13.github.io/stat462/)
 # To Do 
 * Save Folders for 
   * Unfinished notes
+  * Completed notes
+  * Homework pdf's 
 * Type up notes
 * Bold headers
 * Change header colors for every other week 
