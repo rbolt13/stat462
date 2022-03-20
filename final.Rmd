@@ -12,7 +12,7 @@ output:
     theme: cosmo
 ---
 
-# W6D11: Feb. 8th, 2022 
+# **W6D11: Feb. 8th, 2022** 
 
 ## Functions of Random Varibales and Their Distributions
 
@@ -38,7 +38,7 @@ output:
 
 ![](img/img105.png)
 
-# W6D12: Feb. 10th, 2022
+# **W6D12: Feb. 10th, 2022**
 
 ### Ex. R=ln(X)
 
@@ -71,7 +71,7 @@ output:
 
 ![](img/img113.png)
 
-# W7D13: Feb. 15th, 2022
+# <span style="color: blue;">**W7D13: Feb. 15th, 2022**</span>
 
 ### Find the pdf of $Y=3X$
 
@@ -113,7 +113,7 @@ output:
 
 ![](img/img124.png)
 
-# W7D14: Feb. 17th, 2022
+# <span style="color: blue;">**W7D14: Feb. 17th, 2022**</span>
 
 ### Joint PDF of $U_1$ and $U_2$ and PDF of $U_1$
 
@@ -133,7 +133,7 @@ output:
 
 ![](img/img129.png)
 
-# W8D15: Feb. 22nd, 2022
+# **W8D15: Feb. 22nd, 2022**
 
 ## 6.5 The Method of Moment-Generating Functions
 
@@ -173,7 +173,7 @@ output:
 
 ![](img/img141.png)
 
-# W8D16: Feb. 24th, 2022
+# **W8D16: Feb. 24th, 2022**
 
 ### Theorem 6.3 
 
@@ -197,7 +197,7 @@ output:
 
 ![](img/img148.png)
 
-# W9D17: Mar. 1st, 2022
+# <span style="color: blue;">**W9D17: Mar. 1st, 2022**</span>
 
 ### Example 1
 
@@ -224,7 +224,7 @@ output:
 
 ![](img/img155.png)
 
-# W9D18: Mar. 3rd, 2022
+# <span style="color: blue;">**W9D18: Mar. 3rd, 2022**</span>
 
 ### Example 3
 
@@ -248,7 +248,7 @@ output:
 
 ![](img/img161.png)
 
-# W10D19: Mar. 8th, 2022
+# **W10D19: Mar. 8th, 2022**
 
 ### Inference 
 
@@ -282,7 +282,7 @@ output:
 
 ![](img/img172.png)
 
-# W10D20: Mar. 10th, 2022
+# **W10D20: Mar. 10th, 2022**
 
 ## Final 
 
@@ -350,7 +350,7 @@ output:
 
 ![](img/img181.png)
 
-# W11D21: Mar. 15th, 2022
+# <span style="color: blue;">W11D21: Mar. 15th, 2022**</span>
 
 FINAL!!!
 

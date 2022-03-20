@@ -12,14 +12,7 @@ output:
     theme: cosmo
 ---
 
-```{r,echo=F, message=F}
-library(dplyr)
-library(kableExtra)
-library(emojifont)
-library(ggplot2)
-```
-
-# W1D1: Jan. 4th, 2022 
+# **W1D1: Jan. 4th, 2022** 
 
 ## About Class
 
@@ -79,7 +72,7 @@ Two way tables, because there are two ways to read it
 
 ![](img/img14.png)
 
-# W1D2: Jan. 6th, 2022
+# **W1D2: Jan. 6th, 2022**
 
 Review Homework will be Homework 1 and due Friday 14th 
 
@@ -144,7 +137,7 @@ CDF : $F(y_1,y_2)=P(Y_1\leq y_1, Y_2\leq y_2)=\int_{-\infty}^{y_2}\int_{-\infty}
 
 ![](img/img21.png)
 
-# W2D3: Jan. 11th, 2022
+# <span style="color: blue;">**W2D3: Jan. 11th, 2022**</span>
 
 ![](img/img22.png)
 
@@ -176,7 +169,7 @@ CDF : $F(y_1,y_2)=P(Y_1\leq y_1, Y_2\leq y_2)=\int_{-\infty}^{y_2}\int_{-\infty}
 
 ![](img/img36.png)
 
-# W2D4: Jan. 13th, 2022
+# <span style="color: blue;">**W2D4: Jan. 13th, 2022**</span>
 
 ![](img/img37.png)
 
@@ -212,7 +205,7 @@ CDF : $F(y_1,y_2)=P(Y_1\leq y_1, Y_2\leq y_2)=\int_{-\infty}^{y_2}\int_{-\infty}
 
 ![](img/img53.png)
 
-# W3D5: Jan. 18th, 2022
+# **W3D5: Jan. 18th, 2022**
 
 joint pmf (p) : between 0 and 1
 
@@ -246,7 +239,7 @@ Discrete uses summation
 
 ![](img/img66.png)
 
-# W3D6: Jan. 20th, 2022
+# **W3D6: Jan. 20th, 2022**
 
 ![](img/img67.png)
 
@@ -266,7 +259,7 @@ Discrete uses summation
 
 ![](img/img75.png)
 
-# W4D7: Jan. 25th, 2022
+# <span style="color: blue;">**W4D7: Jan. 25th, 2022**</span>
 
 ![](img/img76.png)
 
@@ -286,7 +279,7 @@ Discrete uses summation
 
 ![](img/img84.png)
 
-# W4D8: Jan. 27th, 2022
+# <span style="color: blue;">**W4D8: Jan. 27th, 2022**</span>
 
 ![](img/img89.png)
 
@@ -308,11 +301,11 @@ Discrete uses summation
 
 ![](img/img98.png)
 
-# W5D9: Feb. 1st, 2022
+# **W5D9: Feb. 1st, 2022**
 
 MIDTERM 
 
-# Extra Credit 
+# **Extra Credit** 
 
 ![](img/img85.png)
 
