@@ -13,4 +13,4 @@ View [here](https://rbolt13.github.io/stat462/)
 
 ☑️ Add class content 
 
-☑️ Bold add colors to headers
+☑️ Bold and add colors to headers
